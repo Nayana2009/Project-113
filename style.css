@@ -1,0 +1,32 @@
+body{
+    background-image: url("mustache-seamless-background-vector-pattern-hipster-colorful-54426461.jpg");
+}
+h2{
+    font-family: 'Shizuru', cursive;
+    width: 80%;
+    background-color: rgb(249, 252, 89);
+    font-size: 35px;
+    padding-bottom: 10px;
+    letter-spacing: 5px;
+    color: red;
+    font-weight: bold;
+    border: 2px rgb(255, 174, 0) solid;
+    border-radius: 20px;
+}
+.btn-danger{
+    font-size: 23px;
+    font-family: 'Akaya Telivigala', cursive;
+    background-image: linear-gradient(red,rgb(255, 95, 95),rgb(252, 153, 153));
+    width: 18%;
+    letter-spacing: 3px;
+    font-variant: small-caps;
+}
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow: 1px 1px 40px red;}
+    to{box-shadow: 1px 1px 40px orange;}
+}
